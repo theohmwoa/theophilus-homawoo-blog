@@ -189,7 +189,7 @@ export default function App() {
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8 max-w-4xl">
         <div className="shrink-0 relative group">
            {/* Dark themed rounded image */}
-           <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-neutral-800 shadow-xl filter contrast-125 grayscale hover:grayscale-0 transition-all duration-700">
+           <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-neutral-800 shadow-xl transition-all duration-700">
              <img src={PROFILE.avatarUrl} alt={PROFILE.name} className="w-full h-full object-cover" />
            </div>
         </div>
