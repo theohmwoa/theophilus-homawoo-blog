@@ -3,7 +3,7 @@ import { Layout } from './components/Layout';
 import { BlogListItem, BlogDetail } from './components/BlogComponents';
 import { Button, Input } from './components/UI';
 import { BlogPost, UserProfile } from './types';
-import { Twitter, Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Github } from 'lucide-react';
 
 // --- Mock Data ---
 const PROFILE: UserProfile = {
@@ -203,9 +203,8 @@ export default function App() {
             {PROFILE.bio}
           </p>
           <div className="flex gap-4 mt-6 justify-center md:justify-start">
-            <a href="#" className="text-neutral-400 hover:text-black transition-colors"><Twitter size={20} /></a>
-            <a href="#" className="text-neutral-400 hover:text-black transition-colors"><Linkedin size={20} /></a>
-            <a href="#" className="text-neutral-400 hover:text-black transition-colors"><Github size={20} /></a>
+            <a href="https://www.linkedin.com/in/theophilus/" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-black transition-colors"><Linkedin size={20} /></a>
+            <a href="https://github.com/theohmwoa" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-black transition-colors"><Github size={20} /></a>
           </div>
         </div>
       </div>
