@@ -180,11 +180,6 @@ export default function App() {
           </p>
         </div>
         
-        <nav className="flex gap-6">
-          <a href="#" className="text-sm font-medium hover:line-through decoration-1">Work</a>
-          <a href="#" className="text-sm font-medium hover:line-through decoration-1">About</a>
-          <a href="#" className="text-sm font-medium hover:line-through decoration-1">Contact</a>
-        </nav>
       </div>
     </header>
   );
