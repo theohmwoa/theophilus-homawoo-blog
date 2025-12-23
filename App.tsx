@@ -18,7 +18,7 @@ const POSTS: BlogPost[] = [
   {
     id: '4',
     title: "From Undo Rate to Useful Signal: Instrumenting Reversibility in Practice",
-    date: "Nov 15, 2023",
+    date: "Dec 23, 2025",
     excerpt: "Tracking reversions is easy. Interpreting them is hard. A user hitting 'undo' compresses multiple failure modes into a single binary event. Here is how to tease them apart.",
     tags: ["Product", "Metrics", "AI Safety"],
     readTime: "8 min read",
